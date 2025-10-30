@@ -1,0 +1,7 @@
+{
+  "name": "MGNREGA App Dev Container",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [5173, 8080],
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "bash .devcontainer/postCreate.sh"
+}
